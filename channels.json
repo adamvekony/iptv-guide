@@ -1,0 +1,694 @@
+{
+  "sources": [
+    "https://epgshare01.online/epgshare01/epg_ripper_HU1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_CZ1.xml.gz",
+    "https://epgshare01.online/epgshare01/epg_ripper_SK1.xml.gz"
+  ],
+  "channels": [
+    {
+      "id": "m1.HD.hu",
+      "name": "m1 HD",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch1-d17d74f43f.png"
+    },
+    {
+      "id": "m2.HD.hu",
+      "name": "m2 HD",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch2-441ad88f37.png"
+    },
+    {
+      "id": "m4.hu",
+      "name": "m4",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch3-22a15aa8d5.png"
+    },
+    {
+      "id": "m5.hu",
+      "name": "m5",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch4-be0ab64a20.png"
+    },
+    {
+      "id": "Duna.TV.hu",
+      "name": "Duna TV",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch5-3d32d4ba7b.png"
+    },
+    {
+      "id": "Duna.World.hu",
+      "name": "Duna World",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch6-b93746902a.png"
+    },
+    {
+      "id": "RTL.hu",
+      "name": "RTL",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch7-9d6a9429a8.png"
+    },
+    {
+      "id": "RTL.KETTŐ.hu",
+      "name": "RTL KETTŐ",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch8-3f9bd5371e.png"
+    },
+    {
+      "id": "RTL.HÁROM.hu",
+      "name": "RTL HÁROM",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch9-8476806aed.png"
+    },
+    {
+      "id": "RTL.Otthon.cz",
+      "name": "RTL Otthon",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch10-fc17f13359.png"
+    },
+    {
+      "id": "RTL.GOLD.hu",
+      "name": "RTL GOLD",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch11-a9e1f5b504.png"
+    },
+    {
+      "id": "TV2.hu",
+      "name": "TV2",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch12-72af56547a.png"
+    },
+    {
+      "id": "Super.TV2.hu",
+      "name": "Super TV2",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch13-fd6e2a9280.png"
+    },
+    {
+      "id": "TV2.Comedy.hu",
+      "name": "TV2 Comedy",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch14-31121aa909.png"
+    },
+    {
+      "id": "TV2.Séf.cz",
+      "name": "TV2 Séf",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch15-fa787ee0c8.png"
+    },
+    {
+      "id": "FEM3.cz",
+      "name": "FEM3",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch16-6819316934.png"
+    },
+    {
+      "id": "ATV.hu",
+      "name": "ATV",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch17-dccc82d0df.png"
+    },
+    {
+      "id": "ATV.SPIRIT.hu",
+      "name": "ATV SPIRIT",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch18-f847141008.png"
+    },
+    {
+      "id": "HIR.TV.hu",
+      "name": "HIR TV",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch19-d70fd32013.png"
+    },
+    {
+      "id": "TV4.hu",
+      "name": "TV4",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch20-938a26d649.png"
+    },
+    {
+      "id": "Story4.hu",
+      "name": "Story4",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch21-640da938d8.png"
+    },
+    {
+      "id": "Match.4.hu",
+      "name": "Match 4",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch22-d901f7e083.png"
+    },
+    {
+      "id": "Galaxy.4.sk",
+      "name": "Galaxy 4",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch23-32a2ec447c.png"
+    },
+    {
+      "id": "Aréna4.hu",
+      "name": "Aréna4",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch24-73d584058f.png"
+    },
+    {
+      "id": "LifeTv.hu",
+      "name": "LifeTv",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch25-fada4358ac.png"
+    },
+    {
+      "id": "Viasat.2.hu",
+      "name": "Viasat 2",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch26-8541a5bab8.png"
+    },
+    {
+      "id": "Viasat.3.hu",
+      "name": "Viasat 3",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch27-3c1eb58156.png"
+    },
+    {
+      "id": "Viasat.6.hu",
+      "name": "Viasat 6",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch28-a01be57680.png"
+    },
+    {
+      "id": "Viasat.Film.hu",
+      "name": "Viasat Film",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch29-b4ed7e5581.png"
+    },
+    {
+      "id": "Cool.TV.hu",
+      "name": "Cool TV",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch30-c7e3fd7eb2.png"
+    },
+    {
+      "id": "Film+.hu",
+      "name": "Film+",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch32-f94b64e048.png"
+    },
+    {
+      "id": "Mozi+.hu",
+      "name": "Mozi+",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch33-a494a52d96.png"
+    },
+    {
+      "id": "Sorozat+.cz",
+      "name": "Sorozat+",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch34-b7d5fe2fa2.png"
+    },
+    {
+      "id": "Moziklub.hu",
+      "name": "Moziklub",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch35-5ce40532bc.png"
+    },
+    {
+      "id": "SorozatKlub.hu",
+      "name": "SorozatKlub",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch36-28b21b9570.png"
+    },
+    {
+      "id": "Moziverzum.hu",
+      "name": "Moziverzum",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch37-1f6b2ac060.png"
+    },
+    {
+      "id": "Film.Mánia.hu",
+      "name": "Film Mánia",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch38-2673e67f20.png"
+    },
+    {
+      "id": "Film.Café.hu",
+      "name": "Film Café",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch39-b7da638294.png"
+    },
+    {
+      "id": "Prime.hu",
+      "name": "Prime",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch40-81681d9b8d.png"
+    },
+    {
+      "id": "Filmbox.hu",
+      "name": "Filmbox",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch41-1d1c6a982e.png"
+    },
+    {
+      "id": "Cinemax.hu",
+      "name": "Cinemax",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch42-623286e7bb.png"
+    },
+    {
+      "id": "Cinemax.2.hu",
+      "name": "Cinemax 2",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch43-56270f9033.png"
+    },
+    {
+      "id": "Canal+.Action.hu",
+      "name": "Canal+ Action",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch44-b01cac9715.png"
+    },
+    {
+      "id": "AXN.hu",
+      "name": "AXN",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch45-b259932d12.png"
+    },
+    {
+      "id": "AMC.hu",
+      "name": "AMC",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch46-58d0c9c393.png"
+    },
+    {
+      "id": "Izaura.TV.cz",
+      "name": "Izaura TV",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch47-511762549b.png"
+    },
+    {
+      "id": "Jocky.TV.hu",
+      "name": "Jocky TV",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch48-076bed9b36.png"
+    },
+    {
+      "id": "BBC.Earth.hu",
+      "name": "BBC Earth",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch49-254ce4d847.png"
+    },
+    {
+      "id": "Animal.Planet.HD.hu",
+      "name": "Animal Planet HD",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch50-fe4d0328fb.png"
+    },
+    {
+      "id": "Fishing.and.Hunting.Channel.hu",
+      "name": "Fishing and Hunting Channel",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch51-2123ec036c.png"
+    },
+    {
+      "id": "History.Channel.hu",
+      "name": "History Channel",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch52-d8f92cdff4.png"
+    },
+    {
+      "id": "Viasat.Explore.hu",
+      "name": "Viasat Explore",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch53-6e33392641.png"
+    },
+    {
+      "id": "Spektrum.HD.hu",
+      "name": "Spektrum HD",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch54-9aec9ac509.png"
+    },
+    {
+      "id": "Spektrum.Home.hu",
+      "name": "Spektrum Home",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch55-ab39d10d4e.png"
+    },
+    {
+      "id": "OzoneTv.hu",
+      "name": "OzoneTv",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch56-db8d0d0fa9.png"
+    },
+    {
+      "id": "TV.Paprika.hu",
+      "name": "TV Paprika",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch57-7d60e85145.png"
+    },
+    {
+      "id": "Zenebutik.hu",
+      "name": "Zenebutik",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch58-2940a7aec1.png"
+    },
+    {
+      "id": "Sláger.TV.hu",
+      "name": "Sláger TV",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch59-7cebcbeeb5.png"
+    },
+    {
+      "id": "Muzsika.TV.hu",
+      "name": "Muzsika TV",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch60-a072f68ae4.png"
+    },
+    {
+      "id": "360TuneBox.hu",
+      "name": "360TuneBox",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch61-ee0dda2527.png"
+    },
+    {
+      "id": "MTV.Euro.hu",
+      "name": "MTV Euro",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch62-75a8d5b246.png"
+    },
+    {
+      "id": "Sport1.hu",
+      "name": "Sport1",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch63-acf7e30213.png"
+    },
+    {
+      "id": "Sport2.hu",
+      "name": "Sport2",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch64-b5ffef9d37.png"
+    },
+    {
+      "id": "Spíler1.TV.hu",
+      "name": "Spíler1 TV",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch65-23d40c288a.png"
+    },
+    {
+      "id": "Spíler2.TV.hu",
+      "name": "Spíler2 TV",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch66-93c2160e83.png"
+    },
+    {
+      "id": "MEZZO.hu",
+      "name": "MEZZO",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch67-064c2aa21e.png"
+    },
+    {
+      "id": "Docubox.hu",
+      "name": "Docubox",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch68-8d77cdc238.png"
+    },
+    {
+      "id": "FightBox.cz",
+      "name": "FightBox",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch69-ac675dbb37.webp"
+    },
+    {
+      "id": "Kolyokklub.cz",
+      "name": "Kolyokklub",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch70-882c1dbd33.png"
+    },
+    {
+      "id": "TV2.Kids.hu",
+      "name": "TV2 Kids",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch71-2bbd3f55bd.png"
+    },
+    {
+      "id": "Cartoonito.hu",
+      "name": "Cartoonito",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch72-aed78e1cac.png"
+    },
+    {
+      "id": "Jednotka.cz",
+      "name": "Jednotka",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch73-d7b7f212c7.png"
+    },
+    {
+      "id": "Dvojka.cz",
+      "name": "Dvojka",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch74-e37c458215.png"
+    },
+    {
+      "id": "JOJ.cz",
+      "name": "JOJ",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch75-4c5fb98a82.png"
+    },
+    {
+      "id": "JOJ.Family.cz",
+      "name": "JOJ Family",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch76-f5ea6f365c.png"
+    },
+    {
+      "id": "JOJ.ŠPORT.cz",
+      "name": "JOJ ŠPORT",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch77-61eff475b8.png"
+    },
+    {
+      "id": "JOJ.Cinema.cz",
+      "name": "JOJ Cinema",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch78-6edf4249ba.png"
+    },
+    {
+      "id": "Markíza.International.cz",
+      "name": "Markíza International",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch79-503c80ea6a.png"
+    },
+    {
+      "id": "Doma.cz",
+      "name": "Doma",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch80-cb3545e02b.png"
+    },
+    {
+      "id": "ČT1.cz",
+      "name": "ČT1",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch81-bb5b5ac920.png"
+    },
+    {
+      "id": "ČT2.cz",
+      "name": "ČT2",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch82-617fb2f875.png"
+    },
+    {
+      "id": "ČT24.cz",
+      "name": "ČT24",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch83-dfd299e50a.png"
+    },
+    {
+      "id": "ČT.:D.-.ČT.Art.HD.sk",
+      "name": "ČT :D - ČT Art HD",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch84-fbde5a358a.png"
+    },
+    {
+      "id": "ČT.sport.cz",
+      "name": "ČT sport",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch85-c7e36bc9c5.png"
+    },
+    {
+      "id": "Prima.cz",
+      "name": "Prima",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch86-42b4afe8f1.png"
+    },
+    {
+      "id": "Prima.Cool.cz",
+      "name": "Prima Cool",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch87-15e587bcd9.png"
+    },
+    {
+      "id": "Prima.MAX.cz",
+      "name": "Prima MAX",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch88-a1f3f34eed.png"
+    },
+    {
+      "id": "Prima.LOVE.cz",
+      "name": "Prima LOVE",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch89-e33e90a624.png"
+    },
+    {
+      "id": "Prima.ZOOM.cz",
+      "name": "Prima ZOOM",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch90-a764750345.png"
+    },
+    {
+      "id": "CNN.Prima.News.cz",
+      "name": "CNN Prima News",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch91-697193858e.png"
+    },
+    {
+      "id": "Nova.cz",
+      "name": "Nova",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch92-fc8c360e5d.png"
+    },
+    {
+      "id": "Nova.Fun.cz",
+      "name": "Nova Fun",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch93-fae0db91a2.png"
+    },
+    {
+      "id": "Nova.Action.cz",
+      "name": "Nova Action",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch94-e420c535cd.png"
+    },
+    {
+      "id": "Nova.Cinema.cz",
+      "name": "Nova Cinema",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch95-e8b063bc2b.png"
+    },
+    {
+      "id": "Nova.Krimi.cz",
+      "name": "Nova Krimi",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch96-ec01f60f5c.png"
+    },
+    {
+      "id": "Nova.Lady.cz",
+      "name": "Nova Lady",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch97-20014ab5d0.png"
+    },
+    {
+      "id": "Viasat.Nature.hu",
+      "name": "Viasat Nature",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch99-fc1112cc3a.png"
+    },
+    {
+      "id": "National.Geographic.hu",
+      "name": "National Geographic",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch100-722cb44585.png"
+    },
+    {
+      "id": "Spektrum.cz",
+      "name": "Spektrum",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch101-a6c2cb2b55.png"
+    },
+    {
+      "id": "Spektrum.Home.cz",
+      "name": "Spektrum Home",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch102-9c8f637318.png"
+    },
+    {
+      "id": "Paprika.cz",
+      "name": "Paprika",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch103-e8614b2839.png"
+    },
+    {
+      "id": "Rebel.cz",
+      "name": "Rebel",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch104-702ec8629d.png"
+    },
+    {
+      "id": "RELAX.cz",
+      "name": "RELAX",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch105-c62ff8d398.png"
+    },
+    {
+      "id": "Barrandov.TV.HD.sk",
+      "name": "Barrandov TV HD",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch106-75cafd4aef.png"
+    },
+    {
+      "id": "Barrandov.Krimi.cz",
+      "name": "Barrandov Krimi",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch107-aa2742ca94.png"
+    },
+    {
+      "id": "Barrandov.Kino.cz",
+      "name": "Barrandov Kino",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch108-40b020171e.png"
+    },
+    {
+      "id": "Filmbox.Extra.HD.sk",
+      "name": "Filmbox Extra HD",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch109-febb38393d.png"
+    },
+    {
+      "id": "Filmbox.Family.sk",
+      "name": "Filmbox Family",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch110-8e1180cc60.png"
+    },
+    {
+      "id": "Cinemax.2.cz",
+      "name": "Cinemax 2",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch111-6edf4249ba.png"
+    },
+    {
+      "id": "CS.Film.cz",
+      "name": "CS Film",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch113-5429a68923.png"
+    },
+    {
+      "id": "Crime.and.Investigation.cz",
+      "name": "Crime and Investigation",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch114-11034601a1.png"
+    },
+    {
+      "id": "Noe.cz",
+      "name": "Noe",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch115-8389423627.png"
+    },
+    {
+      "id": "RETRO.Music.TV.sk",
+      "name": "RETRO Music TV",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch116-a8682fc4be.png"
+    },
+    {
+      "id": "Stingray.Classica.HD.sk",
+      "name": "Stingray Classica HD",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch117-6175f9f4ed.png"
+    },
+    {
+      "id": "Stingray.CMusic.hu",
+      "name": "Stingray CMusic",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch118-6175f9f4ed.png"
+    },
+    {
+      "id": "Nova.Sport.1.cz",
+      "name": "Nova Sport 1",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch119-89e6afbad4.png"
+    },
+    {
+      "id": "Nova.Sport.2.cz",
+      "name": "Nova Sport 2",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch120-df03de7605.png"
+    },
+    {
+      "id": "Nova.Sport.3.HD.sk",
+      "name": "Nova Sport 3 HD",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch121-212e6dbe9e.png"
+    },
+    {
+      "id": "Nova.Sport.4.cz",
+      "name": "Nova Sport 4",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch122-925eeb721d.png"
+    },
+    {
+      "id": "Nova.Sport.5.cz",
+      "name": "Nova Sport 5",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch123-f288450997.png"
+    },
+    {
+      "id": "Nova.Sport.6.HD.sk",
+      "name": "Nova Sport 6",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch124-c4e4a6cd97.png"
+    },
+    {
+      "id": "Eurosport.1.cz",
+      "name": "Eurosport 1",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch125-f3cb1b7e78.png"
+    },
+    {
+      "id": "Eurosport.2.cz",
+      "name": "Eurosport 2",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch126-b3255a986a.png"
+    },
+    {
+      "id": "Arena.Sport.1.HD.sk",
+      "name": "Arena Sport 1",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch127-5a9cd00ea8.png"
+    },
+    {
+      "id": "Arena.Sport.2.HD.sk",
+      "name": "Arena Sport 2",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch128-ff5903a238.png"
+    },
+    {
+      "id": "Auto.Motor.Sport.cz",
+      "name": "Auto Motor Sport",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch129-e9be9507af.png"
+    },
+    {
+      "id": "Oneplay.Sport.1.cz",
+      "name": "Oneplay Sport 1",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch130-a6e5367742.png"
+    },
+    {
+      "id": "Oneplay.Sport.2.cz",
+      "name": "Oneplay Sport 2",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch131-8b34f0d42d.png"
+    },
+    {
+      "id": "Oneplay.Sport.3.cz",
+      "name": "Oneplay Sport 3",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch132-27e8dd7cbf.png"
+    },
+    {
+      "id": "Oneplay.Sport.4.cz",
+      "name": "Oneplay Sport 4",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch133-ddedf6cdfa.png"
+    },
+    {
+      "id": "Premier.Sport.1.cz",
+      "name": "Premier Sport 1",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch134-752364d080.png"
+    },
+    {
+      "id": "Premier.Sport.2.cz",
+      "name": "Premier Sport 2",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch135-cceeaa9f7a.png"
+    },
+    {
+      "id": "Premier.Sport.3.cz",
+      "name": "Premier Sport 3",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch136-fcb0b483ba.png"
+    },
+    {
+      "id": "Minimax.hu",
+      "name": "Minimax",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch137-a6dd6b58ca.png"
+    },
+    {
+      "id": "Disney.Channel.hu",
+      "name": "Disney Channel",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch138-46411d1385.svg"
+    },
+    {
+      "id": "Nick.Jr..hu",
+      "name": "Nick Jr.",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch139-dc53c6c0ef.png"
+    },
+    {
+      "id": "Nickelodeon.hu",
+      "name": "Nickelodeon",
+      "logo": "https://adamvekony.github.io/iptv-guide/logos/ch140-49a7216664.png"
+    }
+  ]
+}
