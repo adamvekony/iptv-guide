@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="skin.iptv.controlroom" version="1.0.4" name="IPTV Control Room" provider-name="IPTV Control Room (based on Estuary by phil65 and Piers)">
+<addon id="skin.iptv.controlroom" version="1.0.5" name="IPTV Control Room" provider-name="IPTV Control Room (based on Estuary by phil65 and Piers)">
 	<requires>
 		<import addon="xbmc.gui" version="5.17.0"/>
-		<import addon="script.iptv.controlroom" version="1.1.0"/>
+		<import addon="script.iptv.controlroom" version="1.1.2"/>
 	</requires>
 	<extension point="xbmc.gui.skin" debugging="false">
 		<res width="1920" height="1440" aspect="4:3" default="false" folder="xml" />
@@ -27,7 +27,7 @@
 		<description lang="en_GB">Opens straight to your favourite, recently watched and all channels. OK while watching opens the channel list, holding OK shows programme info. Settings and add-ons keep the Estuary look this skin is based on.</description>
 	</extension>
 </addon>
-<addon id="script.iptv.controlroom" name="IPTV Control Room helper" version="1.1.1" provider-name="IPTV Control Room">
+<addon id="script.iptv.controlroom" name="IPTV Control Room helper" version="1.1.2" provider-name="IPTV Control Room">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 	</requires>
