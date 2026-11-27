@@ -49,7 +49,6 @@
 			<info compressed="false">https://adamvekony.github.io/iptv-guide/kodi/addons.xml</info>
 			<checksum>https://adamvekony.github.io/iptv-guide/kodi/addons.xml.md5</checksum>
 			<datadir zip="true">https://adamvekony.github.io/iptv-guide/kodi/</datadir>
-			<hashes>sha256</hashes>
 		</dir>
 	</extension>
 	<extension point="xbmc.addon.metadata">
