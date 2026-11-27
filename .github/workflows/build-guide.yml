@@ -24,7 +24,7 @@ jobs:
     timeout-minutes: 20
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{ steps.deployment.outputs.page_url || steps.deployment_retry.outputs.page_url }}
     steps:
       - uses: actions/checkout@v5
 
@@ -36,6 +36,17 @@ jobs:
           path: site
 
       - id: deployment
+        uses: actions/deploy-pages@v5
+        continue-on-error: true
+
+      # Right after the upload GitHub sometimes doesn't list the artifact yet ("No artifacts named github-pages"),
+      # mostly when two pushes land seconds apart. Wait and try once more; a second failure still fails the run.
+      - name: Wait before retrying the deploy
+        if: steps.deployment.outcome == 'failure'
+        run: sleep 20
+
+      - id: deployment_retry
+        if: steps.deployment.outcome == 'failure'
         uses: actions/deploy-pages@v5
 
       # GitHub pauses scheduled workflows in repositories without activity for 60 days.
