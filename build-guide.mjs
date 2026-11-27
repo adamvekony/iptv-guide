@@ -7,7 +7,7 @@
  *   node build-guide.mjs [outDir]     (default outDir: site)
  *
  * channels.json: { "sources": ["https://…xml.gz", …], "channels": [{ "id": "m1.HD.hu", "name": "m1 HD", "logo": "https://…" }] }
- * Output: <outDir>/guide.xml.gz, guide.xml, status.json, index.html (+ logos/ copied from the repo).
+ * Output: <outDir>/guide.xml.gz, guide.xml, status.json, index.html (+ logos/ and the kodi/ add-on repository copied from the repo).
  */
 import fs from 'node:fs';
 import path from 'node:path';
@@ -117,6 +117,8 @@ fs.mkdirSync(outDir, { recursive: true });
 fs.writeFileSync(path.join(outDir, 'guide.xml'), xml);
 fs.writeFileSync(path.join(outDir, 'guide.xml.gz'), zlib.gzipSync(Buffer.from(xml), { level: 9 }));
 if (fs.existsSync('logos')) fs.cpSync('logos', path.join(outDir, 'logos'), { recursive: true });
+// Kodi add-on repository for the IPTV Control Room skin (the Pi installs and updates the skin from here).
+if (fs.existsSync('kodi')) fs.cpSync('kodi', path.join(outDir, 'kodi'), { recursive: true });
 
 const missing = channelMeta.filter((c) => !claimed.has(c.id.toLowerCase())).map((c) => c.id);
 const status = {
